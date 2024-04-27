@@ -46,9 +46,10 @@ def chat(inp):
         if i['tag'] == tag:
             return np.random.choice(i['responses'])
 
+
 @app.route("/")
 def home():
-    return render_template("home.html")  # Render the home.html template
+    return render_template("index.html")
 
 @app.route("/get")
 def get_response():
@@ -61,6 +62,7 @@ def get_response():
     else:
         return "Invalid input"
 
+
 # Run the app
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0', port=10000)
