@@ -1,10 +1,5 @@
-json
-numpy 
-os
-flask
 tensorflow
-warnings
-contextlib
-pickle
+sklearn
+nltk
 colorama
-keras
+flask
