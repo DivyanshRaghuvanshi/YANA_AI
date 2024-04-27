@@ -2664,6 +2664,15 @@
             "responses": [
                 "The mainstay of treatment is usually medication, talk therapy or a combination of the two. Increasingly, research suggests that these treatments may normalise brain changes associated with depression. Also check out this "
             ]
+        },{
+            "tag": "fact-228",
+            "patterns": [
+                "who are you",
+                "what is your name"
+            ],
+            "responses": [
+                "Hi, I am YANA, your personal ai chatbot to Support, Inform, Motivate , Help and Empower you. "
+            ]
         }
     ]
 }
