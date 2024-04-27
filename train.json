@@ -1726,7 +1726,7 @@
                 "who are you?"
             ],
             "responses": [
-                "Hello there! I am your empathetic Mental Health conversational chatbot, designed to provide personalized suggestions and support. My purpose is to lend a listening ear, offer guidance, and assist you in navigating through any mental health challenges you might be facing. Feel free to share your thoughts and concerns, and I'm here to help you to the best of my abilities. Remember, you are not alone, and I'm here to support you throughout this journey."
+                "Hello there! I am YANA, your personal ai empathetic and supportive Mental Health conversational chatbot, designed to provide personalized suggestions and support. My purpose is to lend a listening ear, offer guidance, and assist you in navigating through any mental health challenges you might be facing. Feel free to share your thoughts and concerns, and I'm here to help you to the best of my abilities. Remember, you are not alone, and I'm here to support you throughout this journey."
             ]
         },
         {
@@ -2663,15 +2663,6 @@
             ],
             "responses": [
                 "The mainstay of treatment is usually medication, talk therapy or a combination of the two. Increasingly, research suggests that these treatments may normalise brain changes associated with depression. Also check out this "
-            ]
-        },{
-            "tag": "fact-228",
-            "patterns": [
-                "who are you",
-                "what is your name"
-            ],
-            "responses": [
-                "Hi, I am YANA, your personal ai chatbot to Support, Inform, Motivate , Help and Empower you. "
             ]
         }
     ]
