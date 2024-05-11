@@ -61,7 +61,7 @@ def chat(inp):
             if lemmatized_input in pattern:
                 return np.random.choice(i['responses'])
 
-    return "I'm listning please go ahead....."
+    return "I'm sorry, I couldn't understand. Can you please rephrase or provide more context?"
 
 @app.route("/")
 def home():
