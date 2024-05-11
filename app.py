@@ -8,8 +8,6 @@ from tensorflow import keras
 import pickle
 import colorama
 from colorama import Fore, Style
-import nltk
-from nltk.stem import WordNetLemmatizer
 
 warnings.filterwarnings("ignore")
 colorama.init()
@@ -36,32 +34,18 @@ with open('label_encoder.pickle', 'rb') as enc:
 # Parameters
 max_len = 20
 
-# Initialize WordNet Lemmatizer
-lemmatizer = WordNetLemmatizer()
-
-def lemmatize_input(text):
-    # Tokenize the input text
-    tokens = nltk.word_tokenize(text)
-    # Lemmatize each token and join them back
-    lemmatized_text = ' '.join([lemmatizer.lemmatize(word) for word in tokens])
-    return lemmatized_text
-
 def chat(inp):
     inp = inp.lower()  # Convert input text to lowercase
-    lemmatized_input = lemmatize_input(inp)  # Lemmatize the input text
-    
-    # Check if the lemmatized input matches any tag
+    # Redirecting output to nul
+    with open(os.devnull, 'w') as devnull:
+        with contextlib.redirect_stdout(devnull):
+            result = model.predict(keras.preprocessing.sequence.pad_sequences(tokenizer.texts_to_sequences([inp]), truncating='post', maxlen=max_len), verbose=0)
+            tag = lbl_encoder.inverse_transform([np.argmax(result)])
+
     for i in data['intents']:
-        if i['tag'] == lemmatized_input:
+        if i['tag'] == tag:
             return np.random.choice(i['responses'])
 
-    # If tag not found, search in patterns
-    for i in data['intents']:
-        for pattern in i['patterns']:
-            if lemmatized_input in pattern:
-                return np.random.choice(i['responses'])
-
-    return "I'm sorry, I couldn't understand. Can you please rephrase or provide more context?"
 
 @app.route("/")
 def home():
