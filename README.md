@@ -1,6 +1,7 @@
-# YANA AI - Your Assistant for Needs and Assistance
+# YANA AI - Your Assistant for Needs and Assistance (https://yanaai.wixsite.com/divyansh)
 
-![YANA AI Logo](path/to/logo.png)
+![YANA AI Logo](https://github.com/user-attachments/assets/d5954ac8-05b9-4327-acb3-c3296646c058)
+
 
 YANA (Your Assistant for Needs and Assistance) is an AI-powered virtual assistant designed to help users with a wide range of tasks, from providing answers to common questions to automating repetitive tasks. Leveraging state-of-the-art machine learning techniques, YANA can learn, adapt, and provide meaningful assistance tailored to user needs.
 
@@ -72,9 +73,9 @@ After installation, you can interact with YANA AI via the following methods:
 
 ### Sample Commands
 
-- **Get Information**: `What’s the weather like today?`
-- **Set Reminder**: `Remind me to call John at 5 PM tomorrow.`
-- **Schedule an Event**: `Schedule a meeting with the marketing team next Monday at 10 AM.`
+- **Get Information**: `What are the long-term effects of taking medication for mental illness? will the medicine damage my brain, liver, kidney or other organs?`
+- **Can be used to help others**: `Someone I really care about has mental illness but repeatedly stops taking his medication and his symptoms come back. Sometimes my friend has to be hospitalized. How can i help him?`
+- **Share emotions**: `Please help me. I am feeling lost.`
 
 ## Technologies
 
