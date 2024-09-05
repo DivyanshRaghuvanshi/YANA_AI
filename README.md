@@ -75,7 +75,9 @@ After installation, you can interact with YANA AI via the following methods:
 ### Sample Commands
 
 - **Get Information**: `What are the long-term effects of taking medication for mental illness? will the medicine damage my brain, liver, kidney or other organs?`
+- 
 - **Can be used to help others**: `Someone I really care about has mental illness but repeatedly stops taking his medication and his symptoms come back. Sometimes my friend has to be hospitalized. How can i help him?`
+- 
 - **Share emotions**: `Please help me. I am feeling lost.`
 
 ## Technologies
