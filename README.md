@@ -1,4 +1,5 @@
 # YANA AI - Your Assistant for Needs and Assistance (https://yanaai.wixsite.com/divyansh)
+## After cliking on start chat sometimes it takes 50 sec to load (It's normal)
 
 ![YANA AI Logo](https://github.com/user-attachments/assets/d5954ac8-05b9-4327-acb3-c3296646c058)
 
