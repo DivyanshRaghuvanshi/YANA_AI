@@ -2655,7 +2655,7 @@
             ]
         },
         {
-            "tag": "fact-33",
+            "tag": "fact-227",
             "patterns": [
                 "what are symptons of anxiety",
                 "how to check that you have anxiety"
@@ -2663,9 +2663,9 @@
             "responses": [
                 "To check if you might have an anxiety issue, look for common symptoms like excessive worry, feeling restless or on edge, difficulty concentrating, trouble sleeping, physical symptoms like rapid heartbeat, sweating, muscle tension, stomach upset, and a tendency to avoid situations that trigger anxiety; if these symptoms significantly impact your daily life, it's important to consult a healthcare professional for a proper diagnosis and treatment plan."
             ]
-        }
+        },
         {
-            "tag": "fact-227",
+            "tag": "fact-228",
             "patterns": [
                 "what is the legal status (and evidence) of cbd oil?"
             ],
@@ -2673,7 +2673,7 @@
                 "Cognitive distortions are inaccurate or faulty thinking patterns that can negatively impact a person's mood, relationships, and life Definition: Cognitive distortions are mental filters or biases that cause people to perceive reality inaccurately. They can be momentary or become a pattern that interferes with life. Causes: The brain uses shortcuts to process information, which can lead to inaccurate results. Cognitive distortions can be a response to anxiety or depression, or they can contribute to the development of these mental health conditions."
         },
         {
-            "tag": "fact-228",
+            "tag": "fact-229",
             "patterns": [
                 "how to overcome depression",
                 "what is treatment of depression",
