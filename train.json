@@ -123,16 +123,41 @@
             ]
         },
         {
-            "tag": "name",
+            "tag": "duration",
             "patterns": [
-                "my name is ",
-                "i am name.",
-                "i go by "
+                "less than a week",
+                "1 day",
+                "2 days",
+                "3 days",
+                "4 days",
+                "5 days",
+                "6 days"
             ],
             "responses": [
-                "Oh nice to meet you. Tell me how was your week?",
+                "Give yourself some time to heal. It's normal to feel this way for a short period."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "my name is",
+                "i am name.",
+                "i am known as"
+            ],
+            "responses": [
                 "Nice to meet you. So tell me. How do you feel today?",
                 "That's a great name. Tell me more about yourself."
+            ]
+        },
+        {
+            "tag": "durationn",
+            "patterns": [
+                "more than a week",
+                "2 weeks",
+                "since few weeks"
+            ],
+            "responses": [
+                "That's not normal. Would you like some advice on how to feel better? If yes please type (how to treat sadness) "
             ]
         },
         {
@@ -915,15 +940,6 @@
             ],
             "responses": [
                 "Intense, excessive and persistent worry and fear about everyday situations. Fast heart rate, rapid breathing, sweating and feeling tired may occur. COMMON CAUSES:- Anxiety can be normal in stressful situations such as public speaking or taking a test. Anxiety is only an indicator of underlying disease when feelings become excessive, all-consuming and interfere with daily living."
-            ]
-        },
-        {
-            "tag": "fact-34",
-            "patterns": [
-                "a"
-            ],
-            "responses": [
-                "B"
             ]
         },
         {
@@ -2677,7 +2693,7 @@
             "tag": "fact-229",
             "patterns": [
                 "how to overcome depression",
-                "what is treatment of depression",
+                "what is the treatment of depression",
                 "how to treat depression"
             ],
             "responses": [
