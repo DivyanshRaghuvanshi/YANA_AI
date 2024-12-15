@@ -154,7 +154,8 @@
             "patterns": [
                 "more than a week",
                 "2 weeks",
-                "since few weeks"
+                "since few weeks",
+                "since a week"
             ],
             "responses": [
                 "That's not normal. Would you like some advice on how to feel better? If yes please type (how to treat sadness) "
@@ -190,10 +191,7 @@
                 "i don't have anyone"
             ],
             "responses": [
-                "I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?",
-                "I'm here for you. Could you tell me why you're feeling this way?",
-                "Why do you think you feel this way?",
-                "How long have you been feeling this way?"
+                "I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way? and, How long have you been feeling this way?"
             ]
         },
         {
